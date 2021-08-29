@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Initialise base path
-base_path="./src/projectStatus/"
+base_path="./src/projectDetails/"
 
 # Local Dependencies
 source "./src/helpers/color.sh"

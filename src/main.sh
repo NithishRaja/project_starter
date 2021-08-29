@@ -1,8 +1,8 @@
 #!/bin/bash
 
 source ./src/helpers/color.sh
-source ./src/projectStatus/getProjectStatus.sh
-source ./src/projectStatus/getProjectName.sh
+source ./src/projectDetails/getProjectStatus.sh
+source ./src/projectDetails/getProjectName.sh
 
 get_project_status
 
