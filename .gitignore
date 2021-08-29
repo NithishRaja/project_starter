@@ -1,3 +1,6 @@
 # Ignore temp files
 *temp.sh
 **/temp
+
+# Ignore swap files
+*.swp
