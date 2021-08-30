@@ -11,7 +11,7 @@ function get_project_status {
         break
         ;;
       *)
-        echo -e "${RED}Select between new or existing project ${RESET}"
+        echo -e "${ERROR}Select between new or existing project ${RESET}"
         ;;
     esac
   done

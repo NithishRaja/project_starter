@@ -10,7 +10,7 @@ function get_project_name {
     read -p "Enter project name: "
     # Check if project name is empty
     if [ -z $REPLY ]; then
-      echo -e "${RED}Project name should not be empty $RESET"
+      echo -e "${ERROR}Project name should not be empty $RESET"
     else
       project_name=$REPLY
     fi

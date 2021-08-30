@@ -6,8 +6,8 @@ source ./src/projectDetails/getProjectName.sh
 
 get_project_status
 
-echo -e "${BLUE}status is $project_status $RESET"
+echo -e "${INFO}status is $project_status $RESET"
 
 get_project_name
 
-echo -e "${BLUE}name is $project_name $RESET"
+echo -e "${INFO}name is $project_name $RESET"
