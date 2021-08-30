@@ -1,12 +1,9 @@
 #!/bin/bash
 
-# Initialise base path
-base_path="./src/projectDetails/"
-
 # Local Dependencies
 source "./src/helpers/color.sh"
-source "${base_path}getProjectStatus.sh"
-source "${base_path}getProjectName.sh"
+source "./src/projectDetails/getProjectStatus.sh"
+source "./src/projectDetails/getProjectName.sh"
 
 # Test new project status
 test_project_status_getter_new_case() {
